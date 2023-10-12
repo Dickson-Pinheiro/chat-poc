@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client';
-export const socket = io("https://chat-backend-vge7.onrender.com", {
+export const socket = io("https://api.dicksonpinheiro.com.br", {
     autoConnect: false,
     transports: ['websocket']
 });
