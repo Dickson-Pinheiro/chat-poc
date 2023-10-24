@@ -103,6 +103,8 @@ const MessagesContainer = styled.div`
   gap: 8px;
   height: calc(100vh - 120px);
   padding: 15px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
   overflow-y: auto;
 `
 const Message = styled.div`
